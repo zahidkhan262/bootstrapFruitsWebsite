@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap || learning 02</title>
+
+    <!-- Slick Css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8b6c44059c.js" crossorigin="anonymous"></script>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- bootstrap css -->
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css.map">
+
+    <!-- javascript -->
+    <script src="/js/bootstrap.bundle.js"></script>
+
+
+</head>
+
+<body>
+
+    <!-- navbar or header -->
+    <nav class="navbar navbar-expand-md bg-light navbar-light px-4 fixed-top ">
+        <span class="navbar-brand">Navbar</span>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><i
+                class="fas fa-bars"></i></button>
+
+        <div class="container">
+            <div class="collapse navbar-collapse justify-content-center" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+
+                    <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" id="navbardrop"
+                            data-bs-toggle="dropdown">Services</a>
+
+                        <div class="dropdown-menu">
+                            <div class="triangle"></div>
+                            <a class="dropdown-item" href="#">services-1</a>
+                            <a class="dropdown-item" href="#">services-2</a>
+                            <a class="dropdown-item" href="#">services-3</a>
+                            <a class="dropdown-item" href="#">services-3</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main page carousel -->
+
+    <div id="id" class="carousel slide" data-bs-ride="carousel">
+        <!-- indicator -->
+        <ul class="carousel-indicators">
+            <li data-bs-target="#id" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#id" data-bs-slide-to="1"></li>
+        </ul>
+        <!-- inner carousel -->
+        <div class="carousel-inner">
+            <!-- carousel item -->
+            <div class="carousel-item active">
+                <img src="bg-1.jpg" alt="bg-1">
+                <div class="carousel-caption">
+                    <p>Best Offer Sale</p>
+                    <h3>Up to 70% off <br> Fresh Juice</h3>
+                    <button class="btn btn-outline-info text-white">Shop Now</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="bg-2.jpg" alt="bg-1">
+                <div class="carousel-caption">
+                    <p>Best Offer Sale</p>
+                    <h3>Up to 70% off <br> Fresh Juice</h3>
+                    <button class="btn btn-outline-info text-white">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div class="container">
+        <div class="row border my-3">
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="d-flex py-3">
+                    <div class="logo-1 px-2">
+                        <img src="icon_cms1.png" alt="cms">
+                    </div>
+                    <div class="content">
+                        <h5>Free Shipping</h5>
+                        <p>Here you will get more extra.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="d-flex py-3">
+                    <div class="logo-1 px-2">
+                        <img src="icon_cms1.png" alt="cms">
+                    </div>
+                    <div class="content">
+                        <h5>Free Shipping</h5>
+                        <p>Here you will get more extra.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="d-flex py-3">
+                    <div class="logo-1 px-3">
+                        <img src="icon_cms1.png" alt="cms">
+                    </div>
+                    <div class="content">
+                        <h5>Free Shipping</h5>
+                        <p>Here you will get more extra.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <div class="d-flex py-3">
+                    <div class="logo-1 px-2">
+                        <img src="icon_cms1.png" alt="cms">
+                    </div>
+                    <div class="content">
+                        <h5>Free Shipping</h5>
+                        <p>Here you will get more extra.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--  -------3 image card--------- -->
+
+        <div class="row">
+            <div class="col-md-3 col-3">
+                <div class="card">
+                    <img src="img-2.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6  col-6">
+                <div class="card">
+                    <img src="img-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-3 col-3">
+                <div class="card"><img src="img-4.jpg" alt=""></div>
+            </div>
+        </div>
+
+
+        <!-- best seller -->
+        <div class="best-seller">
+            <div class="best-seller-heading">
+                <h3>Best Seller</h3>
+                <p>Lorem ipsum dolor sit amet.amt</p>
+            </div>
+            <div class="row slider-slick">
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--2 second row of best selller -->
+
+
+        <div class="best-seller">
+            <div class="row slider-slick-2">
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of best seller -->
+    </div>
+    <!-- end container-2 -->
+
+    <!-- featureed product plus carousel -->
+    <div class="featured-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="logo-2">
+                        <img src="cms.png" alt="" width="100%">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="featured-carousel-heading">
+                        <h2>Featured Products</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur consectetur.</p>
+                    </div>
+                    <div class="row slider-slick-3">
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a8.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a7.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a6.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a5.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row slider-slick-4">
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a1.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a4.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a3.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-pad">
+                            <div class="d-flex">
+                                <div class="card-img" style="width: 100%;">
+                                    <img src="a2.jpg" alt="" width="100%">
+                                </div>
+                                <div class="card-body fea-content">
+                                    <p>Graphic Corner</p>
+                                    <h6>brixton patrol all terrain</h6>
+                                    <div class="star-rating fea-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- New arrival images caoursel -->
+
+    <div class="new-arrival">
+        <div class="container">
+            <div class="new-arrival-heading">
+                <h2>New Arrival </h2>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="row slider-slick-2">
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-pad">
+                    <div class="card">
+                        <img src="a1.jpg" alt="">
+                        <div class="card-body">
+                            <p>Graphic Corner</p>
+                            <h5>brixton patrol all terrain anorak</h5>
+                            <div class="star-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="price">
+                                <p>$29.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of arrival -->
+    <!-- banner -->
+    <div class="banner-1">
+        <div class="container">
+            <img src="4_1.jpg" alt="" width="100%">
+        </div>
+    </div>
+
+    <!-- end of banner -->
+
+    <div class="testimonial">
+        <div class="testimonial-heading">
+            <h2>Client Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="container">
+            <div class="box slider-slick-5">
+                <div class="d-flex">
+                    <div class="profile">
+                        <img src="sample1.png" alt="">
+                    </div>
+                    <div class="card-body-1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore nam, in fuga error
+                            perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea?</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="profile">
+                        <img src="sample2.png" alt="">
+                    </div>
+                    <div class="card-body-1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore nam, in fuga error
+                            perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="profile">
+                        <img src="sample1.png" alt="">
+                    </div>
+                    <div class="card-body-1">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolore nam, in fuga error
+                            perspiciatis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of testimonial -->
+
+    <!-- advertisment -->
+    <div class="container">
+        <div class="row border slider-slick-6">
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="1(1).jpg" alt="cms">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="6.jpg" alt="cms">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="2(1).jpg" alt="cms">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="3.jpg" alt="cms">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="4.jpg" alt="cms">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="ads-1">
+                    <img src="5.jpg" alt="cms">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="ecolife-responsive-prestashop-theme-logo-1580528177.jpg" alt="logo" width="125px">
+                    <ul class="footer-ul">
+                        <li> <i class="fas fa-location-arrow"></i><a href="#">Sector-51 Noida UP(201301),
+                                India</a></li>
+                        <li><i class="fas fa-phone"></i><a href="#" class="phone">+91 8874262123</a></li>
+                        <li><i class="fas fa-mail-bulk"></i><a href="#">zahidkhan007860@gmail.com</a></li>
+
+                    </ul>
+                    <div class="followMe-icon">
+                        <li><a href="#" class="phone"> <i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#" class="phone"> <i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="phone"> <i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="phone"> <i class="fab fa-github"></i></a></li>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h4>Customer Services</h4>
+                    <ul class="footer-ul">
+                        <li> <a href="#">Delivery boy</a></li>
+                        <li><a href="#" class="phone">Fast deliver</a></li>
+                        <li><a href="#">Instant reply</a></li>
+                        <li><a href="#">Instant Chat support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4>Customer Services</h4>
+                    <ul class="footer-ul">
+                        <li> <a href="#">Delivery boy</a></li>
+                        <li><a href="#" class="phone">Fast deliver</a></li>
+                        <li><a href="#">Instant reply</a></li>
+                        <li><a href="#">Instant Chat support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <div class="download-card">
+                        <h3>Download App</h3>
+                        <div class="store_btn">
+                            <span><img src="app_store.png" alt="" width="120px"></span>
+                            <span><img src=" google_play.png" alt="" width="120px"></span>
+                        </div>
+                        <h3>NEWSELLER</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        $('.slider-slick').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.slider-slick-2').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        // slider-slick-3
+        $('.slider-slick-3').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.slider-slick-4').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.slider-slick-5').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+        $('.slider-slick-6').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>
